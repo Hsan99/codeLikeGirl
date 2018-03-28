@@ -1,0 +1,33 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery (https://startbootstrap.com/template-overviews/thumbnail-gallery)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-thumbnail-gallery/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  color: tomato
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+    background-image:  url(../img/bg_1.jpg)
+  }
+}
+
+.modal {
+    position: relative;
+}
+.modal img { /* select the image tag inside the modal. */
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:50; /* for good measure */
+}
+.close1 { /* select the close button */
+    position: absolute;
+    top:0;
+    right:0;
+    z-index:51; /* place it over the img */
+}
